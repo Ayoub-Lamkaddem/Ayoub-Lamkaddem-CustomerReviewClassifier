@@ -67,15 +67,6 @@ CustomerReviewClassifier/
    git clone https://github.com/AyoubLamkaddem/CustomerReviewClassifier.git
    cd CustomerReviewClassifier
    ```
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv env
-   source env/bin/activate   # On Windows: env\Scripts\activate
-   ```
-3. Install the dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 1. Prepare the dataset:
