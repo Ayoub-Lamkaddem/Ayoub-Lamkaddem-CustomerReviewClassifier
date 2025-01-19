@@ -1,32 +1,32 @@
-# Customer Reviews Classification: A Comparison Between Traditional Machine Learning and Transfer Learning
+# 📊 Customer Reviews Classification: A Comparison Between Traditional Machine Learning and Transfer Learning
 
 This project explores the performance of traditional machine learning techniques such as Support Vector Machines (SVM) and Logistic Regression versus modern transfer learning methods like BERT and XLNet for customer review classification.
 
-## Overview
+## 📝 Overview
 The aim is to determine which approach offers better accuracy and efficiency in classifying customer reviews into categories such as positive, negative, or neutral.
 
-## Features
-- **Data Preprocessing**: 
+## ✨ Features
+- **🛠️ Data Preprocessing**: 
   - Text cleaning (removing stop words, punctuation, etc.).
   - Tokenization and vectorization.
-- **Traditional Machine Learning**: 
+- **⚙️ Traditional Machine Learning**: 
   - Implementation of SVM and Logistic Regression models using TF-IDF features.
-- **Transfer Learning**: 
+- **🚀 Transfer Learning**: 
   - Fine-tuning pre-trained BERT and XLNet models.
-- **Evaluation**: 
+- **📈 Evaluation**: 
   - Comparison of accuracy, precision, recall, and F1-score between the approaches.
 
-## Technologies Used
+## 🛠️ Technologies Used
 - **Programming Language**: Python
 - **Libraries**:
-  - scikit-learn
-  - pandas
-  - numpy
-  - transformers (Hugging Face)
-  - PyTorch
-  - NLTK/Spacy for NLP preprocessing
+  - 🐍 scikit-learn
+  - 🐼 pandas
+  - 📊 numpy
+  - 🤗 transformers (Hugging Face)
+  - 🔥 PyTorch
+  - 📝 NLTK/Spacy for NLP preprocessing
 
-## Project Structure
+## 📂 Project Structure
 ```
 CustomerReviewClassifier/
 ├── Logistic Regression/
@@ -61,14 +61,14 @@ CustomerReviewClassifier/
 └── LICENSE                    # License information
 ```
 
-## Installation
+## ⚡ Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/AyoubLamkaddem/CustomerReviewClassifier.git
    cd CustomerReviewClassifier
    ```
 
-## Usage
+## 🚀 Usage
 1. Prepare the dataset:
    - Ensure `balanced_subset.csv` is in the project root.
 2. Run the data preprocessing notebook:
@@ -85,16 +85,16 @@ CustomerReviewClassifier/
    python app.py
    ```
 
-## Results
+## 📊 Results
 The project provides a detailed comparison of traditional ML and transfer learning models, including metrics like accuracy, precision, recall, and F1-score. Results are documented in `Rapport ML.pdf`.
 
-## Future Work
+## 🔮 Future Work
 - Experiment with other transfer learning models like RoBERTa or GPT.
 - Optimize hyperparameters for both traditional ML and transfer learning models.
 - Extend to multilingual datasets.
 
-## Contributing
+## 🤝 Contributing
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
-## License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
